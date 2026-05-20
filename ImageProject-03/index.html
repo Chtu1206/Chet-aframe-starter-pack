@@ -5,7 +5,116 @@
   </head>
   <body>
     <a-scene>
-      <a-sky src="Assets/Underwater.jpg" ></a-sky>
-    </a-scene>
+      <a-assets>
+    <a-asset-item id="shark" src="Assets/12960_Shark_v2_L1.obj"></a-obj-model>></a-asset-item>
+  </a-assets>
+
+  <a-assets>
+    <a-asset-item id="Bookshelf" src="Assets/Bookself.obj"></a-asset-item>
+  </a-assets>
+
+  <a-assets>
+    <a-asset-item id="Window1" src="Assets/Window1.obj"></a-asset-item>
+  </a-assets>
+
+   <a-assets>
+    <a-asset-item id="Window2" src="Assets/Window2.obj"></a-asset-item>
+  </a-assets>
+
+  <a-assets>
+    <a-asset-item id="Arch" src="Assets/Arch1.obj"></a-asset-item>
+  </a-assets>
+
+  <a-assets>
+    <a-asset-item id="Window3" src="Assets/Window3.obj"></a-asset-item>
+  </a-assets>
+
+  <a-assets>
+    <a-asset-item id="Roof" src="Assets/Roof.obj"></a-asset-item>
+  </a-assets>
+
+<!-- MODELS -->
+
+  <a-obj-model src="#shark" position="0 100 -300" rotation="-90 0 0" scale="0.5 0.5 0.5"></a-obj-model>
+  <a-obj-model src="#shark" position="-30 20 -240" rotation="-90 0 0" scale="0.5 0.5 0.5"></a-obj-model>
+  <a-obj-model src="#shark" position="60 20 -400" rotation="-90 0 0" scale="0.5 0.5 0.5"></a-obj-model>
+  <a-obj-model src="#Bookshelf" position="0 -30 0" scale="0.5 0.5 0.5"></a-obj-model>
+  <a-obj-model src="#Window1" rotation=" 0 -180 90" position="-79 6 148" scale="1 1.65 1"></a-obj-model>
+  <a-obj-model src="#window2"></a-obj-model> 
+  <a-obj-model src="#Arch" scale="5.45 1.9 1" position="-3 -35 -149"></a-obj-model>
+  <a-obj-model src="#Window3" rotation="0 90 0"scale="0.24 0.4 0.2 " position="-146.5 80 0"></a-obj-model>
+  <a-obj-model src="#Window3" rotation="0 270 0"scale="0.24 0.4 0.2 " position="146.5 80 0"></a-obj-model>
+  <a-obj-model src="#Roof" scale="6 6 6 " rotation="0 0 90" position="0 248 356"></a-obj-model>
+
+
+   <a-camera rotation="0 0 180"></a-camera>
+  <!-- BackWALLS -->
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="100 0 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="0 -25 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="0 37.5 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="-100 0 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="100 100 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="0 100 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="-100 100 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="100 200 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="0 200 150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="-100 200 150"></a-box>
+
+
+      <!-- leftWALLs -->
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 0 100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="25" width="100" position="-150 -25 0"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 0 -100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 100 100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="25" width="100" position="-150 137.5 0"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 100 -100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 200 100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 200 0"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="-150 200 -100"></a-box>
+
+       <!-- rightWalls -->
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 0 100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="25" width="100" position="150 -25 0"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 0 -100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 100 100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="25" width="100" position="150 137.5 0"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 100 -100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 200 100"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 200 0"></a-box>
+       <a-box src="Assets/AdobeStock_284485302.jpeg" rotation="0 90 0" height="100" width="100" position="150 200 -100"></a-box>
+
+       <!-- FRONT -->
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="0 -25 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="100 -25 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="-100 -25 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="100 137.5 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="0 137.5 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="25" width="100" position="-100 137.5 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="75" width="25" position="-137.5 87.55 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="62.5" width="25" position="-137.5 18.55 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="75" width="25" position="137.5 87.55 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="62.5" width="25" position="137.5 18.55 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="100 200 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="0 200 -150"></a-box>
+      <a-box src="Assets/AdobeStock_284485302.jpeg" height="100" width="100" position="-100 200 -150"></a-box>
+
+
+      <!-- FLOOR -->
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" 0 -30 0"rotation="-90 0 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" 100 -30 0"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" -100 -30 0"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" -100 -30 100"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" -0 -30 100"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" 100 -30 100"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" -100 -30 -100"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" 0 -30 -100"rotation="-90 -180 0"height="100" width="100"></a-plane>
+      <a-plane src="Assets/AdobeStock_52327231.jpeg" position=" 100 -30 -100"rotation="-90 -180 0"height="100" width="100"></a-plane>
+
+
+
+
+      <a-sky src="Assets/AdobeStock_122724045.jpeg" ></a-sky>
+
+     </a-scene>
   </body>
 </html>
